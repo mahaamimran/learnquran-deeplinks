@@ -1,6 +1,6 @@
 function redirectToAppOrStore() {
     const androidStore =
-      "https://play.google.com/store/apps/details?id=com.alhuda.apps.learnquran";
+      "https://play.google.com/store/apps/details?id=com.alhuda.learnquran";
     const iosStore =
       "https://apps.apple.com/app/learn-quran/id1483311132";
   
