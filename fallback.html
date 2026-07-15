@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="icon" href="assets/app-logo.png" type="image/png" />
+  <title>Learn Qur'an</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <section class="redirect-section">
+      <div class="brand">
+        <img src="assets/logo-full.png" alt="Learn Qur'an" class="brand-logo" />
+      </div>
+      <div id="redirect-state" class="redirect-state">
+        <h2 class="redirect-title">Opening in app…</h2>
+        <div class="spinner"></div>
+      </div>
+    </section>
+
+    <section id="fallback-ui" class="fallback-container">
+      <div class="fallback-card">
+        <p class="fallback-title">Get the full experience</p>
+        <p class="fallback-text">
+          Install the app to open this link and enjoy Qur'an, tafsir, and audio on the go.
+        </p>
+        <div class="buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.alhuda.apps.learnquran"
+             class="button button-store" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                 alt="Get it on Google Play" class="store-logo" />
+          </a>
+          <a href="https://apps.apple.com/app/learn-quran/id1483311132"
+             class="button button-store" target="_blank" rel="noopener">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                 alt="Download on the App Store" class="store-logo" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

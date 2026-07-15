@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.alhuda.apps.learnquran",
+      "sha256_cert_fingerprints": [
+        "20:85:7D:71:62:C3:68:07:D1:D4:2E:45:92:2E:9D:03:98:5D:E4:0F:4B:9A:6A:48:15:FD:AA:FC:2F:6D:17:E7"
+      ]
+    }
+  }
+]
