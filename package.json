@@ -1,4 +1,12 @@
 {
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev:cloudflare": "wrangler pages dev ."
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "wrangler": "^4.151.3"
   }
