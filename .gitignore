@@ -1,0 +1,6 @@
+node_modules/
+.wrangler/
+.wrangler-config/node_modules/
+.wrangler/
+.wrangler-config/
+qfa.db
